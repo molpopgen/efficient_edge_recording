@@ -3,6 +3,10 @@ name = "efficient_edge_recording"
 version = "0.1.0"
 edition = "2021"
 
+[[bin]]
+name = "haploid_wright_fisher_buffered"
+path = "src/haploid_wright_fisher_buffered/main.rs"
+
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
