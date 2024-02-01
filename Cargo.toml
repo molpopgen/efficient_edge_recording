@@ -7,6 +7,10 @@ edition = "2021"
 name = "haploid_wright_fisher_buffered"
 path = "src/haploid_wright_fisher_buffered/main.rs"
 
+[[bin]]
+name = "haploid_wright_fisher_buffered_regular_transfer"
+path = "src/haploid_wright_fisher_buffered_regular_transfer/main.rs"
+
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
